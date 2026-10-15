@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from app.routes.vendor_routes import router as vendor_router
+from routes.vendor_routes import router as vendor_router
 
 app = FastAPI(
     title="ShopSense API",
